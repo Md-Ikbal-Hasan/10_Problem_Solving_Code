@@ -1,0 +1,33 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    map<int ,string > mp;
+    mp[1] = "Iqbal";
+    mp[2] = "Sunny";
+    mp[3] = "Faisal";
+    mp[4] = "Titu";
+    mp[5] = "Pranto";
+    mp[6] = "Mithun";
+    cout<<mp[4]<<endl;
+    cout<<"size of map: "<<mp.size()<<endl;
+
+    for(auto it : mp)
+    {
+    cout << it.first << " " << it.second << "\n" ;
+    }
+    mp.clear();
+    cout<<"size of map: "<<mp.size()<<endl;
+    mp.insert( pair <int, string> (7,"Aminul") );
+    mp.insert( pair <int, string> (8,"Hasan") );
+    cout<<"size of map: "<<mp.size()<<endl;
+    cout<<mp[8]<<endl;
+    mp.erase(8);
+    cout<<mp[7]<<endl;
+    cout<<mp[8]<<endl;
+
+
+
+
+    return 0;
+}

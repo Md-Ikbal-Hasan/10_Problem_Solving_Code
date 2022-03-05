@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1546654566 source:e:\c++ only code practice\calculate cgpa\main.cpp
+	<iostream>
+	<stdlib.h>
+
