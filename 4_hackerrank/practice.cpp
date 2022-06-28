@@ -1,14 +1,12 @@
-#include <iostream>
-#include <iomanip>
+#include<bits/stdc++.h>
 using namespace std;
-
 int main()
 {
-	string ch = "567";
-	int nm = ch[0] - '0';
-	cout<<"char to number: "<<nm<<endl;
-	char chr = nm + '0';
-	cout<<"num to char : "<<chr<<endl;
+	char c = 'A' + 32;
+	cout<<c<<endl;
+	char c2= 'a' - 32;
+	cout<<c2<<endl;
 	
+
 	return 0;
 }

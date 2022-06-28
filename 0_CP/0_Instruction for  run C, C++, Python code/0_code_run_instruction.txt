@@ -1,0 +1,31 @@
+Run C, C++ and Python  code using mingw in command prompt......................
+
+First install mingw and then set the path .
+Open command prompt and go to the directory where your coding file is located.
+
+
+C code run ===============>
+
+gcc filename.exe -o a.exe && a.exe
+Example : gcc test.c -o a.exe && a.exe
+OR
+gcc filename.c -o filename.exe && filename.exe
+
+
+
+C++ code run =============>
+
+g++ -std=c++14 filename.cpp  && a.exe
+Example : g++ -std=c++14 practice.cpp  && a.exe
+
+
+
+Python code run ===========>
+
+python filename.py
+Example : python testcode.py
+
+or
+
+py filename.py
+Example : py testcode.py
