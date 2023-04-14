@@ -1,0 +1,7 @@
+for run c++ code, in command line(cmd) write down =>
+g++ -std=c++11 hello.cpp && a.exe
+and that time build system shoul be c++ single file
+
+for run python in cmd line
+python filename.python
+python test.py

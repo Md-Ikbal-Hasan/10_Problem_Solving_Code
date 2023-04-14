@@ -1,0 +1,3 @@
+The sum is: 42
+The sum is: 134
+The sum is: 67

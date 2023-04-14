@@ -1,3 +1,3 @@
-The sum of two number is: 25
-The sum of two number is: 74
-The sum of two number is: 49
+Ans. is: 72
+Ans. is: 74
+Ans. is: 49

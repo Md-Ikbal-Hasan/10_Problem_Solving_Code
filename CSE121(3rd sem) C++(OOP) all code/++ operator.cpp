@@ -1,27 +1,29 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-class test{
-int a;
+class test
+{
+    int a;
+
 public:
     test(int x)
     {
-        a=x;
+        a = x;
     }
-    void operator ++()
+    void operator++()
     {
         a++;
     }
-    void operator --()
+    void operator--()
     {
         a--;
     }
-  /* void show()
-    {
-        cout<<"a:"<<a<<endl;
-    }*/
+    /* void show()
+      {
+          cout<<"a:"<<a<<endl;
+      }*/
     void get(int &p)
     {
-        p=a;
+        p = a;
     }
 };
 int main()
@@ -30,11 +32,10 @@ int main()
     ++t;
     int q;
     t.get(q);
-    cout<<q<<endl;
+    cout << q << endl;
     --t;
     t.get(q);
-    cout<<q;
+    cout << q;
 
     return 0;
 }
-
